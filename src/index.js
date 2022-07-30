@@ -2,11 +2,11 @@ import homePage from './home.js';
 import header from './header.js';
 import createDishes from './dishes.js';
 import createContact from './contact.js'
+import './style.css';
 
 header();
 homePage();
-// createDishes();
-//  createContact();
+
 
 let content = document.getElementById('content');
 let homeButton = document.querySelector('button.home');
