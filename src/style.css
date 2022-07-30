@@ -135,6 +135,7 @@ div.dishes {
 
 img.right-section {
   margin-left: auto;
+  max-width: 900px;
 }
 
 /* Contact */

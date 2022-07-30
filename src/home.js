@@ -1,3 +1,8 @@
+import GeraniumPhoto from "./img/geranium001.jpg";
+import TeamPhoto from "./img/team-photo.jpg";
+
+
+
 export default function homePage() {
     const content = document.getElementById('content');
 
@@ -14,7 +19,7 @@ export default function homePage() {
     // Img 1
     const img1 = document.createElement('img');
     img1.className = 'team-photo';
-    img1.src = "../img/team-photo.jpg";
+    img1.src = TeamPhoto;
     img1.alt = "Team photo";
     section1.append(img1);
 
@@ -53,7 +58,7 @@ export default function homePage() {
 
     // Img 2
     const img2 = document.createElement('img');
-    img2.src = "../img/geranium001.jpg";
+    img2.src = GeraniumPhoto;
     img2.alt = "Geranium";
     section2.append(img2);
 

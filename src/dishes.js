@@ -1,3 +1,4 @@
+import DishPhoto from "./img/geranium dish.jpg";
 
 export default function createDishes() {
     const content = document.getElementById('content');
@@ -32,7 +33,13 @@ export default function createDishes() {
                                 <div class="wine-name">Non Alcoholic Pairing</div>
                                 <div class="wine-price">1300 BRL</div>
                                 </div>
-                            </div>
-                            <img src="../img/geranium dish.jpg" alt="" class="right-section">`
+                            </div>`
+
     content.append(dishes);
+
+const img3 = document.createElement('img');
+img3.src = DishPhoto;
+img3.className = 'right-section';
+img3.alt = "Dish Photo";
+dishes.append(img3);
 }
