@@ -11,17 +11,12 @@ export default function homePage() {
     home.className = 'home';
     content.append(home);
 
-    // Section 1
-    const section1 = document.createElement('div');
-    section1.className = 'section-1';
-    home.append(section1);
-
     // Img 1
     const img1 = document.createElement('img');
     img1.className = 'team-photo';
     img1.src = TeamPhoto;
     img1.alt = "Team photo";
-    section1.append(img1);
+    home.append(img1);
 
     // Text 1
     const text1 = document.createElement('div');
@@ -36,12 +31,8 @@ export default function homePage() {
                         These forces are not visible, but their biologic "footprints" are. The effects 
                         can be seen if one learns to observe and understand the connections 
                         between the formative forces and the physical matter of all organisms".`
-    section1.append(text1);
+    home.append(text1);
 
-    // Section 2
-    const section2 = document.createElement('div');
-    section2.className = 'section-2';
-    home.append(section2);
 
     // Text 2
     const text2 = document.createElement('div');
@@ -54,12 +45,12 @@ export default function homePage() {
 
     <p>The location emphasizes Geranium's vision of gastronomic clarity and diversity. We explore 
     the area of tension between the urbane and the natural.</p>`
-    section2.append(text2);
+    home.append(text2);
 
     // Img 2
     const img2 = document.createElement('img');
     img2.src = GeraniumPhoto;
     img2.alt = "Geranium";
-    section2.append(img2);
+    home.append(img2);
 
 }

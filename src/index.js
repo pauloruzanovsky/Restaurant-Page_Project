@@ -9,9 +9,9 @@ homePage();
 
 
 let content = document.getElementById('content');
-let homeButton = document.querySelector('button.home');
-let dishesButton = document.querySelector('button.dishes');
-let contactButton = document.querySelector('button.contact');
+let homeButton = document.querySelector('.home-button');
+let dishesButton = document.querySelector('.dishes-button');
+let contactButton = document.querySelector('.contact-button');
 
 function removeContentChildren() {
     while (content.children.length>1) {
